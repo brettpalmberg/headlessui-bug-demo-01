@@ -1,3 +1,24 @@
+# Minimalist Repository for HeadlessUI Bug Report
+
+```
+Compiled with problems:X
+
+ERROR in ./node_modules/@headlessui/react/dist/index.esm.js
+
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+TypeError: /Users/rdcrlbtp/Documents/projects/cumulus-ui-too/node_modules/@headlessui/react/dist/index.esm.js: Cannot read property 'originalPositionFor' of undefined
+    at SourceMapTree.originalPositionFor (/Users/rdcrlbtp/Documents/projects/cumulus-ui-too/node_modules/@ampproject/remapping/dist/remapping.umd.js:159:27)
+    at trace (/Users/rdcrlbtp/Documents/projects/cumulus-ui-too/node_modules/@ampproject/remapping/dist/remapping.umd.js:102:37)
+    at EncodedSourceMapImpl.map (/Users/rdcrlbtp/Documents/projects/cumulus-ui-too/node_modules/@jridgewell/trace-mapping/dist/trace-mapping.umd.js:347:36)
+    at TraceMap.map (/Users/rdcrlbtp/Documents/projects/cumulus-ui-too/node_modules/@jridgewell/trace-mapping/dist/trace-mapping.umd.js:430:31)
+    at SourceMapTree.traceMappings (/Users/rdcrlbtp/Documents/projects/cumulus-ui-too/node_modules/@ampproject/remapping/dist/remapping.umd.js:85:34)
+    at remapping (/Users/rdcrlbtp/Documents/projects/cumulus-ui-too/node_modules/@ampproject/remapping/dist/remapping.umd.js:258:36)
+    at mergeSourceMap (/Users/rdcrlbtp/Documents/projects/cumulus-ui-too/node_modules/@babel/core/lib/transformation/file/merge-map.js:19:30)
+    at generateCode (/Users/rdcrlbtp/Documents/projects/cumulus-ui-too/node_modules/@babel/core/lib/transformation/file/generate.js:72:39)
+    at run (/Users/rdcrlbtp/Documents/projects/cumulus-ui-too/node_modules/@babel/core/lib/transformation/index.js:55:33)
+    at run.next (<anonymous>)
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
